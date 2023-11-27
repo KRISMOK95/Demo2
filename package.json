@@ -1,7 +1,6 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://github.com/KRISMOK95/Demo2.git",
   "private": true,
   "scripts": {
     "dev": "next dev",
