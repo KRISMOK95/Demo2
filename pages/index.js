@@ -2,6 +2,10 @@ import Image from 'next/image'
 import Head from 'next/head';
 
 import Header from '@/components/Header';
+import Sidebar from '@/components/Sidebar';
+import TopCards from '@/components/TopCards';
+import RecentOrders from '@/components/RecentOrders';
+import BarCharts from '@/components/BarCharts';
 
 
 export default function Home() {
@@ -15,6 +19,11 @@ export default function Home() {
       </Head>
       <main className='bg-gray-100 min-h-screen'>
       <Header />
+      <TopCards />
+      <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
+        <RecentOrders/>
+        <BarCharts/>
+      </div>
       </main>
 
     </> 
